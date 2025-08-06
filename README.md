@@ -16,4 +16,4 @@ Professional 3D dizayn va modellashtirish portfoliom. Ishlarimni ko'rib chiqing 
 📱 Telegram: [@justozodbek](https://t.me/justozodbek)
 
 ---
-⭐ Agar yoqqan bo'lsa, yulduzcha qo'yishni unutmang!
+⭐ Agar yoqsa, yulduzcha bosishni unutmang!
