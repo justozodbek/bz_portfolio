@@ -1,6 +1,6 @@
 # justozodbek - Портфолио
 
-![Превью портфолио](https://ltdfoto.ru/image/vxfmWr)
+![Превью портфолио](https://i.imgur.com/whIN4s9.jpeg)
 
 ## О проекте
 
