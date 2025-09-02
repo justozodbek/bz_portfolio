@@ -1,6 +1,6 @@
 # justozodbek - Портфолио
 
-![Превью портфолио]([https://i.imgur.com/whIN4s9.jpeg](https://piclinks.in/share?u=68016920250902))
+![Превью портфолио](https://piclinks.in/share?u=68016920250902)
 
 ## О проекте
 
