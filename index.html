@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BZ | Pure 3D</title>
+    <title>justozodbek</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
     <rect width='24' height='24' fill='white' rx='3'/>
-    <text x='12' y='16' font-family='Arial Black, sans-serif' font-size='12' font-weight='900' text-anchor='middle' fill='%23555'>BZ</text>
+    <text x='12' y='16' font-family='Arial Black, sans-serif' font-size='12' font-weight='900' text-anchor='middle' fill='%23555'>JK</text>
     <text x='12' y='16' font-family='Arial Black, sans-serif' font-size='12' font-weight='900' text-anchor='middle' fill='%23888' opacity='0.7'>
     <animate attributeName='x' values='12;11.5;12;12.5;12' dur='3s' repeatCount='indefinite'/>
     <animate attributeName='y' values='16;16.5;16;15.5;16' dur='2s' repeatCount='indefinite'/>
@@ -508,12 +508,19 @@
             transform: translateY(30px);
             opacity: 0;
             animation: fadeInUp 0.8s var(--ease-out-quart) 0.4s forwards;
+            background-color: #f5f5f5; /* Yangi: och kulrang fon */
+            padding: 20px; /* Yangi: rasmlarga padding qo'shish */
         }
 
         .about-img {
             width: 100%;
             display: block;
             transition: transform 1.2s var(--ease-out-quart);
+            border-radius: 8px; /* Yangi: rasmga border-radius */
+            object-fit: contain; /* Yangi: rasm proporsiyasini saqlab qoladi */
+            background-color: white; /* Yangi: rasm fonini oq qilish */
+            padding: 10px; /* Yangi: rasm atrofida bo'sh joy */
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Yangi: rasmga yumshoq soy */
         }
 
         .about-img-container:hover .about-img {
@@ -922,7 +929,7 @@
     <nav>
         <a href="#" class="logo">
             <span class="logo-circle"></span>
-            BZ | Pure 3D
+            justozodbek
         </a>
         <div class="nav-links">
             <a href="#home" data-i18n="nav.home">Home</a>
@@ -945,8 +952,8 @@
         <div id="model-container"></div>
         <div class="container">
             <div class="hero-content">
-                <h1 data-i18n="hero.title">Hello, and welcome — where imagination turns into motion, in three dimensions.</h1>
-                <p data-i18n="hero.subtitle">Minimalist 3D design inspired by subtle details and calm aesthetics — crafting digital worlds that feel natural and peaceful.</p>
+                <h1 data-i18n="hero.title">Hello, and welcome — where code is precise, design is crafted with care, and projects are made to last.</h1>
+                <p data-i18n="hero.subtitle">Minimalist and secure development — where precise code meets elegant design, creating solutions built to last.</p>
                 <div>
                     <a href="#portfolio" class="btn" data-i18n="hero.view_work">View Work</a>
                     <a href="#contact" class="btn btn-outline" data-i18n="hero.contact">Contact Me</a>
@@ -1013,23 +1020,23 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2 data-i18n="about.title">About My Approach</h2>
-                    <p data-i18n="about.text1">I create 3D art that speaks softly but holds deep meaning. My work explores the delicate balance between form, light, and texture to build experiences that feel both digital and organic.</p>
-                    <p data-i18n="about.text2">Drawing from traditional art and modern 3D techniques, I blend handcrafted details with digital precision — bridging the gap between the tangible and the virtual.</p>
+                    <p data-i18n="about.text1">I create digital experiences that are as functional as they are beautiful — built with precision, security, and a clear purpose. Every project is a balance of clean code, thoughtful design, and seamless user experience, crafted to stand the test of time.</p>
+                    <p data-i18n="about.text2">Blending the logic of development with the artistry of design, I transform ideas into solutions that feel natural, intuitive, and reliable. From backend architecture to the smallest UI detail, I work to ensure every piece serves both form and function.</p>
 
                     <div class="skills">
                         <div class="skill-item">
                             <div class="skill-name">
-                                <span data-i18n="skills.modeling">3D Modeling</span>
-                                <span>95%</span>
+                                <span data-i18n="skills.backend">Backend Development</span>
+                                <span>90%</span>
                             </div>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
+                                <div class="skill-progress" style="width: 90%"></div>
                             </div>
                         </div>
 
                         <div class="skill-item">
                             <div class="skill-name">
-                                <span data-i18n="skills.lighting">Lighting</span>
+                                <span data-i18n="skills.frontend">Frontend Development</span>
                                 <span>85%</span>
                             </div>
                             <div class="skill-bar">
@@ -1039,18 +1046,38 @@
 
                         <div class="skill-item">
                             <div class="skill-name">
-                                <span data-i18n="skills.texturing">Texturing</span>
-                                <span>90%</span>
+                                <span data-i18n="skills.sysadmin">System Administration</span>
+                                <span>85%</span>
                             </div>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span data-i18n="skills.security">Security Engineering</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span data-i18n="skills.design">UI/UX Design</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="about-img-container">
-                    <img src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2188&q=80" alt="Working Process" class="about-img">
+                    <img src="https://i.imgur.com/whIN4s9.jpeg" alt="Working Process" class="about-img">
                 </div>
             </div>
         </div>
@@ -1060,11 +1087,11 @@
     <section class="contact" id="contact">
         <div class="container">
             <div class="contact-content">
-                <h2 data-i18n="contact.title">Let's Create Together</h2>
-                <p data-i18n="contact.subtitle">If you have a project in mind or simply want to discuss 3D design, I’d be delighted to hear from you and explore how we can bring your ideas to life.</p>
+                <h2 data-i18n="contact.title">Let's Create Exceptional Digital Experiences</h2>
+                <p data-i18n="contact.subtitle">Have an idea or a project in mind? Let's collaborate to transform your vision into powerful, innovative, and impactful creations.</p>
 
                 <div class="contact-links">
-                    <a href="https://t.me/baha_z16" class="contact-link">
+                    <a href="https://t.me/justozodbek" class="contact-link">
                         <i class="fab fa-telegram-plane"></i>
                         <span data-i18n="contact.telegram">Telegram</span>
                     </a>
@@ -1079,7 +1106,7 @@
             <div class="footer-content">
                 <div class="social-links">
                 </div>
-                <p class="copyright" data-i18n="footer.copyright">© 2025 BZ. All rights reserved.</p>
+                <p class="copyright" data-i18n="footer.copyright">© 2025 justozodbek. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -1126,8 +1153,8 @@
                 "nav.work": "Work",
                 "nav.about": "About",
                 "nav.contact": "Contact",
-                "hero.title": "Hello, and welcome — where imagination turns into motion, in three dimensions.",
-                "hero.subtitle": "Minimalist 3D design inspired by subtle details and calm aesthetics — crafting digital worlds that feel natural and peaceful.",
+                "hero.title": "Hello, and welcome — where code is precise, design is crafted with care, and projects are made to last.",
+                "hero.subtitle": "Minimalist and secure development — where precise code meets elegant design, creating solutions built to last.",
                 "hero.view_work": "View Work",
                 "hero.contact": "Contact Me",
                 "portfolio.title": "Selected Works",
@@ -1140,16 +1167,17 @@
                 "portfolio.item4.title": "Light Study",
                 "portfolio.item4.category": "Lighting Design",
                 "about.title": "About My Approach",
-                "about.text1": "I create 3D art that speaks softly but holds deep meaning. My work explores the delicate balance between form, light, and texture to build experiences that feel both digital and organic.",
-                "about.text2": "Drawing from traditional art and modern 3D techniques, I blend handcrafted details with digital precision — bridging the gap between the tangible and the virtual.",
-                "skills.modeling": "3D Modeling",
-                "skills.lighting": "Lighting",
-                "skills.texturing": "Texturing",
-                "contact.title": "Let's Create Together",
-                "contact.subtitle": "If you have a project in mind or simply want to discuss 3D design, I’d be delighted to hear from you and explore how we can bring your ideas to life.",
-                "contact.email": "Email",
+                "about.text1": "I create digital experiences that are as functional as they are beautiful — built with precision, security, and a clear purpose. Every project is a balance of clean code, thoughtful design, and seamless user experience, crafted to stand the test of time.",
+                "about.text2": "Blending the logic of development with the artistry of design, I transform ideas into solutions that feel natural, intuitive, and reliable. From backend architecture to the smallest UI detail, I work to ensure every piece serves both form and function.",
+                "skills.backend": "Backend Development",
+                "skills.frontend": "Frontend Development",
+                "skills.sysadmin": "System Administration",
+                "skills.security": "Security Engineering",
+                "skills.design": "UI/UX Design",
+                "contact.title": "Let's Create Exceptional Digital Experiences",
+                "contact.subtitle": "Have an idea or a project in mind? Let's collaborate to transform your vision into powerful, innovative, and impactful creations.",
                 "contact.telegram": "Telegram",
-                "footer.copyright": "© 2025 BZ. All rights reserved.",
+                "footer.copyright": "© 2025 justozodbek. All rights reserved.",
                 "modal.title": "Minimal Architecture",
                 "modal.text1": "This architectural study explores the relationship between space and light in a minimalist environment. The clean lines and subtle textures create a sense of calm and order, while the carefully placed lighting adds depth and warmth.",
                 "modal.text2": "The project was created using Blender and rendered with Cycles, focusing on achieving realistic yet soft lighting conditions that enhance the spatial qualities of the design.",
@@ -1162,8 +1190,8 @@
                 "nav.work": "Работы",
                 "nav.about": "Обо мне",
                 "nav.contact": "Контакты",
-                "hero.title": "Здравствуйте и добро пожаловать — здесь воображение превращается в движение в трех измерениях.",
-                "hero.subtitle": "Минималистичный 3D—дизайн, вдохновленный тонкими деталями и спокойной эстетикой, создает цифровые миры, которые кажутся естественными и умиротворяющими.",
+                "hero.title": "Здравствуйте и добро пожаловать — где код точен, дизайн тщательно продуман, а проекты созданы на долгие годы.",
+                "hero.subtitle": "Минималистичная и безопасная разработка — где точный код сочетается с элегантным дизайном, создавая долговечные решения.",
                 "hero.view_work": "Посмотреть работы",
                 "hero.contact": "Связаться",
                 "portfolio.title": "Избранные работы",
@@ -1171,24 +1199,25 @@
                 "portfolio.item1.category": "3D окружение",
                 "portfolio.item2.title": "Органические формы",
                 "portfolio.item2.category": "3D скульптура",
-                "portfolio.item3.title": "Текстурные поверхности",
+                "portfolio.item3.title": "Текстурированная поверхность",
                 "portfolio.item3.category": "Исследование материалов",
                 "portfolio.item4.title": "Игра света",
                 "portfolio.item4.category": "Дизайн освещения",
                 "about.title": "О моём подходе",
-                "about.text1": "Я создаю 3D-рисунки, которые звучат мягко, но несут в себе глубокий смысл. В своих работах я исследую тонкий баланс между формой, светом и текстурой, создавая впечатления, которые кажутся одновременно цифровыми и органичными.",
-                "about.text2": "Опираясь на традиционное искусство и современные 3D—технологии, я сочетаю детали ручной работы с цифровой точностью, сокращая разрыв между материальным и виртуальным.",
-                "skills.modeling": "3D моделирование",
-                "skills.lighting": "Освещение",
-                "skills.texturing": "Текстурирование",
-                "contact.title": "Давайте создадим что-то вместе",
-                "contact.subtitle": "Если у вас есть на примете проект или вы просто хотите обсудить 3D-дизайн, я буду рад услышать ваше мнение и узнать, как мы можем воплотить ваши идеи в жизнь.",
-                "contact.email": "Почта",
-                "contact.telegram": "Telegram",
-                "footer.copyright": "© 2025 BZ. Все права защищены.",
+                "about.text1": "Я создаю цифровые продукты, которые так же функциональны, как и красивы — с точностью, безопасностью и ясной целью. Каждый проект — это баланс чистого кода, продуманного дизайна и бесшовного пользовательского опыта, созданного на долгие годы.",
+                "about.text2": "Соединяя логику разработки с искусством дизайна, я превращаю идеи в решения, которые кажутся естественными, интуитивными и надежными. От архитектуры бэкенда до мельчайших деталей интерфейса — я работаю над тем, чтобы каждый элемент служил и форме, и функции.",
+                "skills.backend": "Бэкенд разработка",
+                "skills.frontend": "Фронтенд разработка",
+                "skills.sysadmin": "Системное администрирование",
+                "skills.security": "Инженер безопасности",
+                "skills.design": "UI/UX дизайн",
+                "contact.title": "Давайте создадим исключительный цифровой опыт",
+                "contact.subtitle": "Есть идея или проект? Давайте сотрудничать, чтобы превратить ваше видение в мощные, инновационные и значимые творения.",
+                "contact.telegram": "Телеграм",
+                "footer.copyright": "© 2025 justozodbek. Все права защищены.",
                 "modal.title": "Минималистичная архитектура",
-                "modal.text1": "Это архитектурное исследование изучает взаимосвязь пространства и света в минималистичной среде. Чистые линии и тонкие текстуры создают ощущение спокойствия и порядка, а тщательно размещённое освещение добавляет глубину и теплоту.",
-                "modal.text2": "Проект создан в Blender с использованием Cycles, с акцентом на достижение реалистичного, но мягкого освещения, которое подчёркивает пространственные качества дизайна.",
+                "modal.text1": "Это архитектурное исследование изучает взаимосвязь пространства и света в минималистичной среде. Чистые линии и тонкие текстуры создают ощущение спокойствия и порядка, а тщательно размещенное освещение добавляет глубину и теплоту.",
+                "modal.text2": "Проект был создан в Blender и отрендерен в Cycles с акцентом на достижение реалистичного, но мягкого освещения, которое подчеркивает пространственные качества дизайна.",
                 "modal.duration": "4 недели",
                 "modal.start_project": "Начать проект",
                 "modal.download_case": "Скачать кейс"
@@ -1197,9 +1226,9 @@
                 "nav.home": "Bosh sahifa",
                 "nav.work": "Ishlarim",
                 "nav.about": "Men haqimda",
-                "nav.contact": "Aloqa",
-                "hero.title": "Salom va xush kelibsiz - bu yerda tasavvur harakatga aylanadi, uch o'lchovda.",
-                "hero.subtitle": "Minimalist 3D dizayn nozik tafsilotlar va sokin estetikadan ilhomlangan — tabiiy va osoyishta his qilinadigan raqamli olamlarni yaratish.",
+                "nav.contact": "Bog'lanish",
+                "hero.title": "Salom va xush kelibsiz — bu yerda kod aniq, dizayn g'amxo'rlik bilan yaratilgan va loyihalar uzoq yillar xizmat qilish uchun mo'ljallangan.",
+                "hero.subtitle": "Minimalistik va xavfsiz ishlab chiqarish — aniq kod bilan chiroyli dizayn uyg'unligi, uzoq yillar xizmat qiladigan yechimlar yaratish.",
                 "hero.view_work": "Ishlarni ko'rish",
                 "hero.contact": "Bog'lanish",
                 "portfolio.title": "Tanlangan ishlar",
@@ -1207,27 +1236,28 @@
                 "portfolio.item1.category": "3D muhit",
                 "portfolio.item2.title": "Organik shakllar",
                 "portfolio.item2.category": "3D haykal",
-                "portfolio.item3.title": "Teksturali sirtlar",
+                "portfolio.item3.title": "Teksturali sirt",
                 "portfolio.item3.category": "Material tadqiqi",
-                "portfolio.item4.title": "Nur tadqiqi",
+                "portfolio.item4.title": "Yorug'lik tadqiqi",
                 "portfolio.item4.category": "Yoritish dizayni",
                 "about.title": "Mening yondashuvim haqida",
-                "about.text1": "Men yumshoq ko'rinadigan, lekin chuqur ma'noga ega bo'lgan 3D san'atini yarataman. Mening ishim raqamli va organik his etadigan tajribalarni yaratish uchun shakl, yorug'lik va to'qimalar o'rtasidagi nozik muvozanatni o'rganadi.",
-                "about.text2": "An'anaviy san'at va zamonaviy 3D texnikasidan kelib chiqib, men qo'lda ishlangan tafsilotlarni raqamli aniqlik bilan aralashtiraman — moddiy va virtual o'rtasidagi bo'shliqni bartaraf etish.",
-                "skills.modeling": "3D modellashtirish",
-                "skills.lighting": "Yoritish",
-                "skills.texturing": "Teksturalash",
-                "contact.title": "Birgalikda yaratamiz",
-                "contact.subtitle": "Agar sizda loyihangiz bo'lsa yoki shunchaki 3D dizaynini muhokama qilmoqchi bo'lsangiz, men sizdan eshitib, g'oyalaringizni qanday hayotga tatbiq etishimizni o'rganishdan xursand bo'lardim.",
-                "contact.email": "Elektron pochta",
+                "about.text1": "Men funksional va bir vaqtning o'zida chiroyli raqamli tajribalarni yarataman — aniq, xavfsiz va maqsadga muvofiq. Har bir loyiha toza kod, o'ylab ishlangan dizayn va uzluksiz foydalanuvchi tajribasining muvozanatidir, uzoq yillar xizmat qilish uchun yaratilgan.",
+                "about.text2": "Dasturlash mantiqini dizayn san'ati bilan uyg'unlashtirib, men g'oyalarni tabiiy, intuitiv va ishonchli yechimlarga aylantiraman. Backend arxitekturasidan tortib interfeysning eng mayda tafsilotlarigacha — har bir element ham shakl, ham funktsiyaga xizmat qilishi uchun ishlayman.",
+                "skills.backend": "Backend dasturlash",
+                "skills.frontend": "Frontend dasturlash",
+                "skills.sysadmin": "Tizim boshqaruvi",
+                "skills.security": "Xavfsizlik muhandisligi",
+                "skills.design": "UI/UX dizayn",
+                "contact.title": "Ajoyib raqamli tajribalar yarataylik",
+                "contact.subtitle": "Biror g'oya yoki loyihangiz bormi? Keling, sizning vizyoningizni kuchli, innovatsion va ta'sirli yaratuvchilikka aylantiramiz.",
                 "contact.telegram": "Telegram",
-                "footer.copyright": "© 2025 BZ. Barcha huquqlar himoyalangan.",
+                "footer.copyright": "© 2025 justozodbek. Barcha huquqlar himoyalangan.",
                 "modal.title": "Minimalistik arxitektura",
-                "modal.text1": "Bu arxitektura tadqiqi minimalistik muhitda bo'shliq va nur o'rtasidagi munosabatlarni o'rganadi. Toza chiziqlar va nozik teksturalar osoyishtalik va tartib hissini yaratadi, ehtiyotkorlik bilan joylashtirilgan yorug'lik esa chuqurlik va iliqlik qo'shadi.",
-                "modal.text2": "Loyiha Blender yordamida yaratilgan va Cycles yordamida renderlangan bo'lib, dizaynning fazoviy sifatlarini oshiruvchi realistik, lekin yumshoq yorug'lik sharoitlariga erishishga qaratilgan.",
+                "modal.text1": "Bu arxitektura tadqiqi minimalistik muhitda fazo va yorug'lik o'rtasidagi munosabatni o'rganadi. Toza chiziqlar va nozik teksturalar tinchlik va tartib hissini uyg'otadi, diqqat bilan joylashtirilgan yorug'lik esa chuqurlik va issiqlik qo'shadi.",
+                "modal.text2": "Loyiha Blenderda yaratilgan va Cycles render motori yordamida ishlangan, dizaynning fazoviy fazilatlarini ta'kidlovchi realistik, ammo yumshoq yorug'lik sharoitlariga erishishga qaratilgan.",
                 "modal.duration": "4 hafta",
-                "modal.start_project": "Loyihani boshlash",
-                "modal.download_case": "Kes-studiyani yuklab olish"
+                "modal.start_project": "Loyiha boshlash",
+                "modal.download_case": "Vaziyatni yuklab olish"
             }
         };
 
